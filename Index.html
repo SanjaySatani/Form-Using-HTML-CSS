@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Home Page </title>
+    <style>
+        .btn {
+            width: 100px;
+            height: 50px;
+            background-color: yellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        User Name : <input type="text" name="Username" value="Sanjay123" readonly> <br><br>
+
+        First Name : <input type="text" name="fname" placeholder="Enter Your Name" required> <br><br>
+
+        Last Name : <input type="text" name="lname" placeholder="Enter Your Surname" required> <br> <br>
+
+        Email : <input type="email" name="email"required> <br> <br>
+
+        Mobile : <input type="text" name="Mobile" placeholder="Enter your mobile" maxlength="10"required> <br> <br>
+
+        Password : <input type="password" name="password"required> <br> <br>
+
+        Gender : <input type="radio" name="gender" value="male"required> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other <br><br>
+
+
+        Hobby : <input type="checkbox" name="hobby" value="play"required> Play
+        <input type="checkbox" name="hobby" value="Read"> Read
+        <input type="checkbox" name="hobby" value="Write"> Write <br> <br>
+
+        Select : <select name="Cars"required>
+            <Option value="Volvo">Volvo</Option>
+            <Option value="Audi">Audi</Option>
+            <Option value="Maruti">Maruti</Option>
+            <Option value="BMW">BMW</Option>
+        </select> <br> <br>
+
+        Comment : <textarea name="Comment" cols="25" rows="7"></textarea><br> <br>
+
+        Search : <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Crome">
+            <option value="Microsoft Edge">
+            <option value="mozila">
+            <option value="opera">
+            
+        </datalist><br> <br>
+
+        Color :  <input type="color" name="Color" value="#ff0000"><br> <br>
+
+        Date : <input type="date" name="date"required><br> <br>
+
+        Numbers : <input type="number" min="0" max="100" step="5" value="5"required><br> <br>
+
+        Files : <input type="file" name="Document" multiple><br> <br>
+
+
+        <input Class="btn" type="submit" value="save">
+        <input Class="btn" type="reset" value="reset value"> <br> <br>
+
+    </form>
+
+</body>
+
+</html>
